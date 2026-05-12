@@ -15,12 +15,12 @@ def load_sounds():
         "gameover": pygame.mixer.Sound("Assets/Sounds/Game_Over.wav"),
     }
 
-    sounds["interact"].set_volume(0.5)
-    sounds["laser"].set_volume(0.4)
-    sounds["player_hit"].set_volume(0.25)
-    sounds["enemy_hit"].set_volume(0.15)
-    sounds["levelup"].set_volume(0.3)
-    sounds["gameover"].set_volume(0.15)
+    sounds["interact"].set_volume(0.4)
+    sounds["laser"].set_volume(0.35)
+    sounds["player_hit"].set_volume(0.2)
+    sounds["enemy_hit"].set_volume(0.1)
+    sounds["levelup"].set_volume(0.25)
+    sounds["gameover"].set_volume(0.1)
 
 
 def play_sound(name):
